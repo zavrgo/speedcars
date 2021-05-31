@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    background-image: url("fon minu.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 230px;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    box-shadow: 15px 0px 15px #000000;
+}
+.menu img{
+    height: 50px;
+}
+nav a{
+    display: block;
+    background-color: #00000066;
+    line-height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    color: snow;
+    text-shadow: 0 0 5px #000000;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+nav a:hover{
+    border: 1px solid white;
+}
+h1{
+    text-align: center;
+    color: snow;
+    text-shadow:0 0 5px #000000 ;
+}
+.content{
+    background-color: blues;
+    width: calc(100% - 230px);
+    margin-left: 230px;
+    text-align: center;
+}
+.content img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+h2{
+    color: white;
+    margin: 20px;
+    background-color: #00000066;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.content a{
+    text-decoration: none;
+    background: white;
+    border: 5px dashed #556;
+    color:white;
+    line-height: 50px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 99px;
+    margin-top: 15px;
+     transition: 0.5s;
+     background: rgb(251,0,255);
+background: linear-gradient(86deg, rgba(251,0,255,1) 0%, rgba(0,112,255,1) 50%, rgba(58,228,255,1) 100%);
+}
+.content a:hover{
+    border: 5px solid #ffff00;
+   
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(184deg, rgba(255,255,255,1) 0%, rgba(0,30,171,1) 50%, rgba(255,0,0,1) 100%);
+    background-attachment: fixed;
+}
+.slider{
+    background-color: #ff2233;
+    white-space:nowrap;
+    overflow: hidden;
+    overflow-x:scroll ;
+    font-size: 0;
+}
+.slider::-webkit-scrollbar{
+    width: 0px;
+}
+.slider::-webkit-scrollbar-track {
+    background: orange;
+    background: rgb(255,0,112);
+background: radial-gradient(circle, rgba(255,0,112,1) 0%, rgba(0,117,255,1) 100%);
+}
+.slider::-webkit-scrollbar-thumb {
+    background-color: blue;    
+    border-radius: 20px;       
+    border: darkmagenta 2px solid; 
+    background: rgb(255,255,255);
+    background: rgb(0,112,255);
+    background: linear-gradient(170deg, rgba(0,112,255,1) 0%, rgba(58,228,255,1) 48%, rgba(251,0,255,1) 100%);
+}
+
+
+
+/* zdelati tak, sho be kartinki vse krutilesa */
+
+
+
+/* background: rgb(255,0,0); */
+/* background: linear-gradient(184deg, rgba(255,0,0,0.5275152297247023) 0%, rgba(255,251,0,0.5191118683801645) 10%, rgba(0,255,37,0.4939017843465511) 20%, rgba(0,255,251,0.5219129888283438) 30%, rgba(255,0,250,0.5415208319655987) 40%, rgba(37,0,255,0.5555264342064952) 50%, rgba(255,0,186,0.5247141092765231) 60%, rgba(255,183,0,0.5331174706210609) 70%, rgba(183,0,255,0.5415208319655987) 80%, rgba(255,217,0,0.5555264342064952) 90%, rgba(0,255,187,0.5303163501728816) 100%); */
+
+
+/* поставить ссылки  в кнопки, бокс шадоу для миню */
